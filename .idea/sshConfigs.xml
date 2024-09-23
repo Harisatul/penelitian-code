@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="54.251.92.13" id="a4509f11-8037-4356-a23e-b9d1ef300a0b" keyPath="$USER_HOME$/Downloads/arya_vm_key.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+      <sshConfig host="18.142.213.43" id="83f3267a-951c-4c03-9f94-995b16d5f446" keyPath="$USER_HOME$/Downloads/arya_vm_key.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  read_timeout: 3
+  write_timeout: 3
+
+db:
+  host: localhost
+  port: 5433
+  user: user
+  password: password
+  db_name: order_svc
+  ssl_mode: disable
+  min_conn: 50
+  max_conn: 200
+
+redis:
+  addr: localhost:6379
+  min_conn: 5
+
+kafka:
+  broker: localhost:9092

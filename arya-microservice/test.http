@@ -1,0 +1,27 @@
+### Healthcheck
+GET http://54.251.92.13:8080/health
+
+### Healthcheck
+GET http://54.251.92.13:8081/health
+
+### List unreserved tickets
+GET http://localhost:8080/api/tickets
+
+### Create order
+POST http://54.251.92.13:8081/api/orders
+Content-Type: application/json
+
+{
+  "category_id": 1,
+  "email": "arya@test.com"
+}
+
+### Payment notification
+POST http://54.251.92.13:8081/api/payments/notify
+Content-Type: application/json
+
+{
+  "status_code": "200",
+  "order_id": "1114493687765",
+  "transaction_status": "settlement"
+}

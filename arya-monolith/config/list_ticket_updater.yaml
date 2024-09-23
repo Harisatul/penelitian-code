@@ -1,0 +1,13 @@
+db:
+  host: localhost
+  port: 5432
+  user: user
+  password: password
+  db_name: monolith
+  ssl_mode: disable
+  min_conn: 50
+  max_conn: 500
+
+redis:
+  addr: localhost:6379
+  min_conn: 2

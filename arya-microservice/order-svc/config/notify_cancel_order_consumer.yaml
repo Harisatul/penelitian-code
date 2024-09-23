@@ -1,0 +1,12 @@
+kafka:
+  broker: localhost:9092
+
+db:
+  host: localhost
+  port: 5433
+  user: user
+  password: password
+  db_name: order_svc
+  ssl_mode: disable
+  min_conn: 3
+  max_conn: 200
